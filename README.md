@@ -25,22 +25,24 @@ output.png: Example output image showing detection results.
 Dependencies
 Ensure you have the following Python libraries installed:
 
-opencv-python
-numpy
-matplotlib
-pytesseract
+## opencv-python
+## numpy
+## matplotlib
+## pytesseract
+
 You can install them using pip:
-
-
 pip install opencv-python numpy matplotlib pytesseract
-Usage
+
+## Usage
 Clone this repository:
 
 git clone https://github.com/your-username/number-plate-detection.git
 cd number-plate-detection
+
 Open the Jupyter Notebook:
 
 jupyter notebook num_pl_u_img.ipynb
+
 Run the notebook cells to see the detection process.
 
 Implementation Steps
