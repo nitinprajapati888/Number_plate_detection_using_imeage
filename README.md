@@ -1,4 +1,5 @@
 # Number_plate_detection_using_imeage
+
 This project demonstrates a computer vision application to detect and extract vehicle number plates from images using machine learning and optical character recognition (OCR).
 
 Features
@@ -13,10 +14,9 @@ An image of a vehicle with a number plate, such as:
 Output
 The detected number plate region and extracted text:
 
+![image](https://github.com/user-attachments/assets/88194928-827c-42fb-a545-ed1ad877c064)
 
 Extracted Text: MH12DE1433
-
-![image](https://github.com/user-attachments/assets/88194928-827c-42fb-a545-ed1ad877c064)
 
 Project Files
 num_pl_u_img.ipynb: Jupyter Notebook containing the implementation for number plate detection and OCR.
@@ -31,14 +31,23 @@ matplotlib
 pytesseract
 You can install them using pip:
 
+bash
+Copy
+Edit
 pip install opencv-python numpy matplotlib pytesseract
 Usage
 Clone this repository:
 
+bash
+Copy
+Edit
 git clone https://github.com/your-username/number-plate-detection.git
 cd number-plate-detection
 Open the Jupyter Notebook:
 
+bash
+Copy
+Edit
 jupyter notebook num_pl_u_img.ipynb
 Run the notebook cells to see the detection process.
 
@@ -59,5 +68,4 @@ Future Improvements
 Implement real-time detection using a camera.
 Train a custom object detection model for improved accuracy.
 Enhance OCR processing for non-standard fonts or blurry images.
-
 
