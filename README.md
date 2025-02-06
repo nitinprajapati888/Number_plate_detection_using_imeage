@@ -31,23 +31,15 @@ matplotlib
 pytesseract
 You can install them using pip:
 
-bash
-Copy
-Edit
+
 pip install opencv-python numpy matplotlib pytesseract
 Usage
 Clone this repository:
 
-bash
-Copy
-Edit
 git clone https://github.com/your-username/number-plate-detection.git
 cd number-plate-detection
 Open the Jupyter Notebook:
 
-bash
-Copy
-Edit
 jupyter notebook num_pl_u_img.ipynb
 Run the notebook cells to see the detection process.
 
